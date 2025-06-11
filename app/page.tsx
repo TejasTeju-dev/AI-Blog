@@ -87,7 +87,7 @@ export default function Home() {
       <Navbar onSubscribeClick={scrollToNewsletter} />
 
       <main className="container mx-auto px-4 pt-32 pb-12 relative z-10">
-        <section className="mb-20 depth-layer-1">
+        <section className="min-h-screen flex items-center justify-center mb-20 depth-layer-1">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
